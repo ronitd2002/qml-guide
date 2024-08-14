@@ -1,0 +1,4 @@
+# Tensor Networks for DMRG (many-body quantum simulations)
+
+The physical properties of a quantum many-body system can, in principle, be determined by diagonal- izing the respective Hamiltonian, but the dimensions of its matrix representation scale exponentiall with the number of degrees of freedom. Hence, only small systems that are described through simple models can be tackled via exact diagonalization. To overcome this limitation, numerical methods based on the renormalization group paradigm that restrict the quantum many-body problem to a manageable subspace of the exponentially large full Hilbert space have been put forth. A striking example is
+the density-matrix renormalization group (DMRG), which has become the reference numerical method to obtain the low-energy properties of one-dimensional quantum systems with short-range interactions. I'll try to show tensor-network-based application of DMRG.
