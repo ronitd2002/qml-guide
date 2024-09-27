@@ -8,9 +8,9 @@ y_i (label) = W_i (weight matrix) @ x_i (datapoints) + b_i (bias)
 
 Usually this has overfitting and generalization problems and such an ideal fit is possible only for **regression problems**. In other general cases we can solve this using two methods:
 
-1. A support vector machine (supervised algorithm)
+1. A **support vector machine** *(supervised algorithm)*
 This is a supervised algorithm and hence requires us to train the model and test it/ validate it against the testing dataset partition. 
-2. Kernel Method (unsupervised algorithm)
+2. **Kernel Method** *(unsupervised algorithm)*
 This method involves encoding a phi function into the data vector and this phi transformation encaptures the essence of this aforementioned *"hyperplane"*. )
 
 All of this is pretty cool but all of this is already defined and standard methods in classical machine learning. So what is *Quantum* here?
