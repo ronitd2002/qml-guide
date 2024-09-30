@@ -1,6 +1,6 @@
 # Classification tasks (an intro)
 
-Mapping between `N` datapoints with `n` feature space, with operators of dimensions 2^nX2^n. This mapping function gives a value `y` within a finite set of labels of size `d`. If `d`=2 binary classification problem otherwise it is a multi class classifier. 
+Mapping between `N` datapoints with `n` feature space, with operators of dimensions $2^n \times 2^n$. This mapping function gives a value `y` within a finite set of labels of size `d`. If `d`=2 binary classification problem otherwise it is a multi class classifier. 
 
 With this much clear for us we can be given a set of points in euclidean space and we might require to draw a suitable hyperplane with a linear form resembling:
 
